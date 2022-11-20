@@ -12,4 +12,7 @@ public class App
     public int addThreeNumbers(int a, int b, int c) {
     	return a+b+c;
     }
+    public int addNumbers(int...numbers) {
+    	return numbers[0]+numbers[1];
+    }
 }
