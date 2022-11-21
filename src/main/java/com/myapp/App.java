@@ -2,7 +2,7 @@ package com.myapp;
 
 public class App 
 { 
-    public String message(){
+    public void message(){
         System.out.println("Hallo message");
     }
     public static void main( String[] args )
