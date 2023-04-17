@@ -1,22 +1,11 @@
 package com.myapp;
 
+import com.myapp.util.MyUtil;
+
 public class App 
 { 
-    public void message(){
-        System.out.println("Hallo message");
-        System.out.println("Welcome vikas! how are you");
-    }
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
-    public int addTwoNumbers(int a, int b) {
-    	return a+b;
-    }
-    public int addThreeNumbers(int a, int b, int c) {
-    	return a+b+c;
-    }
-    public int addNumbers(int...numbers) {
-    	return numbers[0]+numbers[1];
-    }
+	public static void main(String[] args) {
+		int result = MyUtil.addTwoNumbers(10, 20);
+		System.out.println("Addition of two no.: "+result);
+	}
 }
