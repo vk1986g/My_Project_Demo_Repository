@@ -4,6 +4,7 @@ public class App
 { 
     public void message(){
         System.out.println("Hallo message");
+        System.out.println("Welcome message");
     }
     public static void main( String[] args )
     {
